@@ -1,0 +1,92 @@
+@import "../Reset/reset.css";
+
+body{
+  background-image:url("../Assets/background.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: 'Permanent Marker', cursive;
+}
+
+header{
+  font-size: 24px;
+    color: #120C0F;
+}
+
+.title{
+    text-align: center;
+    font-size: 64px;
+}
+.authenticationSection{
+    display: grid;
+    text-align: center;
+    font-size: 24px;
+}
+
+.getPlayer{
+   background-color: transparent;
+   border-color: transparent;
+   width: 10%;
+   color: #120C0F;
+}
+
+button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+button:hover{
+    color: #7190e3;
+}
+
+.startGame{ 
+    font-size: 24px;
+    text-align: center;
+    color: #120C0F;
+}
+
+.reset{ 
+    font-size: 24px;
+    text-align: center;
+    color: #120C0F;
+}
+
+
+main{
+    font-size: 24px;
+    color:#120C0F;
+}
+
+.players{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    white-space: 10px;
+    visibility: hidden;
+}
+
+.player1{
+    padding-right: 5%;
+}
+
+.player2{
+    padding-left:5%;
+}
+
+
+.board{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.space{
+    display: flex;
+    border: 5px solid #120C0F;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center; 
+    min-width: 100px;
+    min-height: 100px;
+}
