@@ -19,7 +19,7 @@
         <form name="authentication">
             <p class="title" id="gameStatus">Jogo da Velha</p>
             <section class="authenticationSection">
-                <p class="turn" id="typePlayers">Digite o nome dos jogadores</p>
+                <h2 class="turn" id="typePlayers">Digite o nome dos jogadores</h2>
                 <p class="login1">Jogador 1 : <input type="text" name="player1Name"
                         class="getPlayer"></p>
                 <p class="login2">Jogador 2 : <input type="text" name="player2Name"
@@ -32,30 +32,30 @@
 
     <main>
         <section class="players" id="board">
-            <img src="../Assets/player1.png" alt="player1" class="player1">
-            <section class="board">
+            <h2><img src="../Assets/player1.png" alt="player1" class="player1"></h2>
+            <div class="board" id="gameBoard">
                 <div id="space1" onclick='selectSpace(this)' class="space"><img src="../Assets/blank.png"
-                        id="space1tile" /></div>
+                        id="space1tile" alt="blank"></div>
                 <div id="space2" onclick='selectSpace(this)' class="space"><img src="../Assets/blank.png"
-                        id="space2tile" /></div>
+                        id="space2tile" alt="blank"></div>
                 <div id="space3" onclick='selectSpace(this)' class="space"><img src="../Assets/blank.png"
-                        id="space3tile" /></div>
+                        id="space3tile" alt="blank"></div>
                 <div id="space4" onclick='selectSpace(this)' class="space"><img src="../Assets/blank.png"
-                        id="space4tile" /></div>
+                        id="space4tile" alt="blank"></div>
                 <div id="space5" onclick='selectSpace(this)' class="space"><img src="../Assets/blank.png"
-                        id="space5tile" /></div>
+                        id="space5tile" alt="blank"></div>
                 <div id="space6" onclick='selectSpace(this)' class="space"><img src="../Assets/blank.png"
-                        id="space6tile" /></div>
+                        id="space6tile" alt="blank"></div>
                 <div id="space7" onclick='selectSpace(this)' class="space"><img src="../Assets/blank.png"
-                        id="space7tile" /></div>
+                        id="space7tile" alt="blank"></div>
                 <div id="space8" onclick='selectSpace(this)' class="space"><img src="../Assets/blank.png"
-                        id="space8tile" /></div>
+                        id="space8tile" alt="blank"></div>
                 <div id="space9" onclick='selectSpace(this)' class="space"><img src="../Assets/blank.png"
-                        id="space9tile" /></div>
-            </section>
-            <img src="../Assets/player2.png" alt="player2" class="player2">
+                        id="space9tile" alt="blank"></div>
+            </div>
+                <img src="../Assets/player2.png" alt="player2" class="player2">
         </section>
-        <img src="../Assets/blank.png" id="blank" class="blank"/>
+        <img src="../Assets/blank.png" id="blank" class="blank" alt="blank">
     </main>
 </body>
 

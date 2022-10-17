@@ -60,7 +60,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center; 
-    white-space: 10px;
     visibility: hidden;
 }
 
